@@ -1,0 +1,36 @@
+comanda client get:
+GET /users
+Online users: guest
+
+GET /users/online
+Online users: guest
+ 
+GET /users/status/guest 
+(in loc de guest poate fi orice utilizator)
+guest:online
+
+
+comanda client post:
+POST login jim jim
+
+POST add mara mara
+
+comanda client delete:
+DELETE a a
+
+in Visual Studio Code:
+Main intai se da run Java la SQLiteJDBC.java
+Dupa se da run la ServerMain.java
+
+Dupa se deschide un nou terminal pentru conexiunea clientului:
+telnet localhost 8818 dupa care se pot scrie comenzile client de mai sus 
+
+Pe windows:
+Conexiune putty cu server vscode
+
+Cream connectiun in Putyy:
+Host name: localhost
+Connection tyoe: Other
+Port: 8818
+
+
