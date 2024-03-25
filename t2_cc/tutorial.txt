@@ -1,0 +1,22 @@
+Ca sa rulam codul:
+
+gcc -o main vd2_3.c -lsqlite3 -lpthread
+./main
+
+
+Functionalitati:
+
+get users
+get users/online
+get users/status/{id_user}
+
+post login/{id_user}/{password_user}
+post add/{id_user}/{password_user}
+post quit
+
+put {id_user}/{pass_id_user}/{new_id_user}/{new_pass_user}
+
+patch {id_user}/{new_id_user}
+
+delete {id_user}/{password_user}
+
