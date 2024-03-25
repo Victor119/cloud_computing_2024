@@ -12,6 +12,7 @@ get users/status/{id_user}
 
 post login/{id_user}/{password_user}
 post add/{id_user}/{password_user}
+post msg/{id_user_to_send_msg}/{msg_body}
 post quit
 
 put {id_user}/{pass_id_user}/{new_id_user}/{new_pass_user}
